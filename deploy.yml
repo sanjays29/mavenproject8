@@ -6,7 +6,7 @@
   tasks:
     - name: Ensure deployment directory exists
       ansible.builtin.file:
-        path: /home/thejan/deployment
+        path: /home/sanjay/deployment
         state: directory
         mode: '0755'
 
